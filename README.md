@@ -1,66 +1,70 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://portfolio.ericksondev.tech/assets/img/portfolio/igreja1.png" width="400" alt="Church"></a></p>
+# Church
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Descrição
+O Sistema de Gestão da Igreja foi desenvolvido para facilitar a administração e organização das atividades da igreja. Ele inclui várias funcionalidades essenciais para o gerenciamento eficiente da comunidade religiosa.
 
-## About Laravel
+## Funcionalidades Principais
+- **Gestão de Cultos:** Registra informações sobre os horários previstos e executados dos cultos, além de rastrear a quantidade de membros e visitantes presentes.
+- **Gestão de Membros:** Permite o cadastro e gerenciamento dos membros da igreja, incluindo informações sobre estado civil, status e histórico de participação.
+- **Gestão de Visitantes:** Possibilita o cadastro e registro de visitantes, podendo vinculá-los aos cultos frequentados.
+- **Gestão de Usuários:** Permite a administração de usuários do sistema, com diferentes níveis de acesso e permissões.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Funcionalidades Adicionais
+- **Gestão de Estados Civis:** Registra e mantém atualizados os estados civis dos membros da igreja.
+- **Gestão de Status dos Membros:** Permite definir e atualizar o status dos membros, como ativo, inativo, em processo de disciplina, etc.
+- **Gestão de Tipos de Cultos:** Permite cadastrar diferentes tipos de cultos, como culto dominical, culto de oração, culto de jovens, entre outros.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Instalação
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+2. **Navegue até o diretório do projeto:**
+cd seu-repositorio
+3. **Instale as dependências do Composer:**
+composer install
+4. **Configure o arquivo .env:**
+Faça uma cópia do arquivo .env.example e renomeie para .env. Configure as variáveis de ambiente, especialmente as relacionadas ao banco de dados.
+5. **Execute as migrações do banco de dados:**
+php artisan migrate
+6. **Inicie o servidor local:**
+php artisan serve
+7. **Acesse o sistema em seu navegador:**
+Abra o navegador e acesse http://localhost:8000.
+`Após seguir estas instruções, o sistema de gestão da igreja estará instalado e pronto para uso em seu ambiente local.`
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Uso
+Após instalar o sistema de gestão da igreja, você pode começar a utilizá-lo para facilitar a administração e organização das atividades da sua igreja. Abaixo estão alguns exemplos de como usar as principais funcionalidades:
 
-## Learning Laravel
+### Registro de Cultos
+1. Acesse a seção de "Gestão de Cultos" no painel administrativo.
+2. Clique em "Registrar Culto" e preencha as informações necessárias, como data, horário previsto e tipo de culto.
+3. Após o culto, atualize o registro com as informações sobre o horário executado e a quantidade de membros e visitantes presentes.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Cadastro de Membros
+1. Na seção de "Gestão de Membros", clique em "Adicionar Membro" para cadastrar novos membros da igreja.
+2. Preencha os campos obrigatórios, como nome, endereço e estado civil.
+3. Você também pode adicionar informações adicionais, como data de batismo, data de conversão, entre outros.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### Registro de Visitantes
+1. Ao receber visitantes na igreja, acesse a seção de "Gestão de Visitantes".
+2. Clique em "Adicionar Visitante" e preencha os campos necessários, como nome, contato e motivo da visita.
+3. Se o visitante já tiver visitado a igreja anteriormente, você pode vinculá-lo ao culto mais recente.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Com estas orientações, você poderá começar a utilizar o sistema para registrar cultos, cadastrar membros e visitantes, e acompanhar a participação da comunidade religiosa.
 
-## Laravel Sponsors
+## Contribuição
+Para contribuir com o projeto:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+1. Faça um fork do repositório.
+2. Crie uma branch para sua contribuição.
+3. Faça suas alterações e adicione commits.
+4. Envie as alterações para o repositório remoto.
+5. Abra um pull request para revisão.
 
-### Premium Partners
+## Licença
+Este projeto é distribuído sob a licença [MIT](https://opensource.org/licenses/MIT). Veja o arquivo `LICENSE` para mais detalhes.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## Contato
+Para suporte ou colaboração, entre em contato com Erickson Ferreira da Silva Nascimento através do e-mail: Erickson.ferreira@outlook.com.br
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
