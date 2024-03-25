@@ -32,7 +32,10 @@ php artisan migrate
 php artisan serve
 7. **Acesse o sistema em seu navegador:**
 Abra o navegador e acesse http://localhost:8000.
-`Após seguir estas instruções, o sistema de gestão da igreja estará instalado e pronto para uso em seu ambiente local.`
+
+Para acessar o sistema em produção, visite https://igreja.ericksonsolutions.tech/.
+
+Após seguir estas instruções, o sistema de gestão da igreja estará instalado e pronto para uso em seu ambiente local.
 
 ## Uso
 Após instalar o sistema de gestão da igreja, você pode começar a utilizá-lo para facilitar a administração e organização das atividades da sua igreja. Abaixo estão alguns exemplos de como usar as principais funcionalidades:
